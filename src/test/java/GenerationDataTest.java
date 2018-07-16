@@ -36,6 +36,7 @@ public class GenerationDataTest {
     @Test
     public void hasNames(){
         assertEquals("Vladimir Putin", generationData.getNames().get(0));
+        System.out.println(generationData.getFourNames());
     }
 
 }
